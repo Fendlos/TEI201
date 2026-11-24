@@ -1,7 +1,7 @@
 ﻿# TEI201
 # Automatización de Bodegas PYME mediante Robot Sigue Líneas
 
-![Render Del Robot](diseno_3d/renders/Render%20ISO.PNG)
+![Render del Robot](https://github.com/Fendlos/TEI201/blob/main/dise%C3%B1o-3d/renders/Render%20ISO.PNG?raw=true)
 ## Integrantes
 * Vicente Correa
 * Fernando Toledo
