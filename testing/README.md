@@ -111,7 +111,7 @@ $$\text{MAE} = \frac{1}{N}\sum_{k=1}^{N} |e_k|, \qquad \text{RMS} = \sqrt{\frac{
 | **Carga media ($100\text{ g}$)** | 0,5 % | 35,5 % | 53,9 % | 43,5 % | 8,3 % | Mayor excursión lateral en curvas hacia `S5`, sin pérdida. |
 | **Carga alta ($200\text{ g}$)** | 5,7 % | 29,3 % | 31,2 % | 29,9 % | 10,8 % | Dispersión uniforme en los 5 sensores por sobreviraje inercial. |
 
-![Gráfico comparativo de desempeño bajo carga útil](evidencia/grafico_desempeno_robot.png)
+![Gráfico comparativo de desempeño bajo carga útil](evidencia/desempeñoseguimientoxcarga.png)
 
 ### 5. Análisis comparativo contra criterios de aceptación
 * **Desempeño del sistema embebido (Cumple al 100 %):** La latencia media del lazo de control se mantuvo invariable en **$10{,}00\text{ ms}$** (pico máximo de **$10{,}01\text{ ms}$**), demostrando que el aislamiento del servidor web en el núcleo 0 del ESP32 evita cualquier interferencia con el control en tiempo real.
@@ -141,7 +141,7 @@ $$\text{MAE} = \frac{1}{N}\sum_{k=1}^{N} |e_k|, \qquad \text{RMS} = \sqrt{\frac{
 | ![Verificación de masa 100 g en balanza](evidencia/20261124_070622.jpg) | **Calibración de carga media ($100\text{ g}$):** Pesaje en balanza digital para garantizar la exactitud de la masa utilizada en los ensayos #4–#6. |
 | ![Verificación de masa 200 g en balanza](evidencia/20261124_121219.jpg) | **Calibración de carga alta ($200\text{ g}$):** Pesaje en balanza digital para validar la masa exacta empleada en los ensayos #9–#11. |
 | ![Gráfico comparativo de desempeño](evidencia\desempeñoseguimientoxcarga.png) | **Análisis cuantitativo ($n = 9$):** Comparación de permanencia, centrado, error MAE/RMS y evolución temporal $e(t)$ para $0\text{ g}$, $100\text{ g}$ y $200\text{ g}$. |
-| ![Gráfico de error lateral MAE y RMS](evidencia/error_lateral.png) | **Error lateral por condición de carga:** Comparación de $\text{MAE}$ ($0{,}568 \rightarrow 0{,}969$) y $\text{RMS}$ ($0{,}670 \rightarrow 1{,}134$) frente al umbral máximo aceptable ($0{,}85$). |
+| ![Gráfico de error lateral MAE y RMS](evidencia\Error_lateral_x_carga.png) | **Error lateral por condición de carga:** Comparación de $\text{MAE}$ ($0{,}568 \rightarrow 0{,}969$) y $\text{RMS}$ ($0{,}670 \rightarrow 1{,}134$) frente al umbral máximo aceptable ($0{,}85$). |
 
 ---
 
