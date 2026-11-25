@@ -140,8 +140,8 @@ $$\text{MAE} = \frac{1}{N}\sum_{k=1}^{N} |e_k|, \qquad \text{RMS} = \sqrt{\frac{
 | ![Dashboard web en tiempo real](evidencia/dashboard.jpg) | **Interfaz Web (`http://192.168.4.1`):** Lectura en vivo de los 5 sensores infrarrojos, curvas de error/PWM e historial de ensayos. |
 | ![Verificación de masa 100 g en balanza](evidencia/20261124_070622.jpg) | **Calibración de carga media ($100\text{ g}$):** Pesaje en balanza digital para garantizar la exactitud de la masa utilizada en los ensayos #4–#6. |
 | ![Verificación de masa 200 g en balanza](evidencia/20261124_121219.jpg) | **Calibración de carga alta ($200\text{ g}$):** Pesaje en balanza digital para validar la masa exacta empleada en los ensayos #9–#11. |
-| ![Gráfico comparativo de desempeño](evidencia\desempeñoseguimientoxcarga.png) | **Análisis cuantitativo ($n = 9$):** Comparación de permanencia, centrado, error MAE/RMS y evolución temporal $e(t)$ para $0\text{ g}$, $100\text{ g}$ y $200\text{ g}$. |
-| ![Gráfico de error lateral MAE y RMS](evidencia\Error_lateral_x_carga.png) | **Error lateral por condición de carga:** Comparación de $\text{MAE}$ ($0{,}568 \rightarrow 0{,}969$) y $\text{RMS}$ ($0{,}670 \rightarrow 1{,}134$) frente al umbral máximo aceptable ($0{,}85$). |
+| ![Gráfico comparativo de desempeño](evidencia/desempeñoseguimientoxcarga.png) | **Análisis cuantitativo ($n = 9$):** Comparación de permanencia, centrado, error MAE/RMS y evolución temporal $e(t)$ para $0\text{ g}$, $100\text{ g}$ y $200\text{ g}$. |
+| ![Gráfico de error lateral MAE y RMS](evidencia/Error_lateral_x_carga.png) | **Error lateral por condición de carga:** Comparación de $\text{MAE}$ ($0{,}568 \rightarrow 0{,}969$) y $\text{RMS}$ ($0{,}670 \rightarrow 1{,}134$) frente al umbral máximo aceptable ($0{,}85$). |
 
 ---
 
